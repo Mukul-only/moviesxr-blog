@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+  @apply text-4xl tracking-tight max-w-3xl text-center font-bold text-[#6C6C6C] leading-[121%];
+}
+p {
+  @apply max-w-3xl text-center text-[#545454] leading-[131%] text-xl;
+}
+.card {
+  @apply px-3 mx-auto max-w-7xl;
+}
