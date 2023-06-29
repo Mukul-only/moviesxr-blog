@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+input,
+textarea,
+button,
+select,
+a,
+div,
+span {
+  -webkit-tap-highlight-color: transparent;
+}
+
 h1 {
   @apply text-xl lg:text-4xl tracking-tight max-w-3xl text-center font-bold text-[#6C6C6C] leading-[121%];
 }
